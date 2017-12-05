@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [phpTravelsNET]">
+  <test name="Regression Sign In(failed)">
+    <classes>
+      <class name="phpTravels.pack.tests.SignInTest">
+        <methods>
+          <include name="checkLogInNOTSuccess"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- phpTravels.pack.tests.SignInTest -->
+    </classes>
+  </test> <!-- Regression Sign In(failed) -->
+</suite> <!-- Failed suite [phpTravelsNET] -->
